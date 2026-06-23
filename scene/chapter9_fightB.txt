@@ -1,0 +1,22 @@
+; ====== 结局B：犹豫 ======
+changeBg:battle.png -next;
+:你犹豫了......;
+:你想留下来和她一起战斗，但又怕自己会成为她的负担。;
+changeFigure:wangshen_serious.png -next;
+王神:别犹豫了！;
+:王神看出了你的纠结。;
+王神:信物会保护你的，先走！;
+王神:等你变强了......再回来找我！;
+:你感觉信物散发出温暖的光芒，包裹住了你的身体。;
+:你最后看了王神一眼——;
+:她正面带微笑，转身面对着曼波大军。;
+changeFigure:wangshen_smile.png -next;
+王神:放心吧，同志。;
+王神:我可是新塘中学的神，怎么可能输？;
+:你被信物的力量传送离开了战场......;
+changeBg:black.png -next;
+changeFigure:none -next;
+intro:—— 未完待续 ——|犹豫·结局|王神好感度：{wangshen_haogan};
+:感谢你游玩《新塘中学的神》;
+:你与王神的故事还将继续......;
+end;

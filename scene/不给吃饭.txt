@@ -1,0 +1,5 @@
+; === 不理她 ===
+:你假装没看到她的眼神，自顾自地吃着饭。;
+changeFigure:wangshen_serious.png -next;
+:王神看起来有些伤心，但什么也没有说。;
+changeScene:5（重置版1）.txt;

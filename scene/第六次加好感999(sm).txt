@@ -1,0 +1,10 @@
+; === SM ===
+setVar:char_王神_fav=char_王神_fav+999; 
+changeBg:学校高一架空层.png -next;
+changeFigure:思语微笑.png -id=3 -transform={"position":{"y":101},"scale":{"x":0.86,"y":0.86},"alpha":1,"blur":0,"bloom":0.096,"bloomBrightness":1,"bloomBlur":0,"bloomThreshold":0,"oldFilm":0,"dotFilm":0,"rgbFilm":0,"godrayFilm":0} -ease=circInOut;
+你:“SM”;
+changeFigure:none -id=3 -transform={"position":{"y":101},"scale":{"x":0.86,"y":0.86},"alpha":1,"blur":0,"bloom":0.096,"bloomBrightness":1,"bloomBlur":0,"bloomThreshold":0,"oldFilm":0,"dotFilm":0,"rgbFilm":0,"godrayFilm":0} -ease=circInOut -next;
+changeFigure:思语震惊.png -id=66 -transform={"position":{"y":101},"scale":{"x":0.86,"y":0.86},"alpha":1,"blur":0,"bloom":0.096,"bloomBrightness":1,"bloomBlur":0,"bloomThreshold":0,"oldFilm":0,"dotFilm":0,"rgbFilm":0,"godrayFilm":0} -ease=circInOut;
+setAnimation:move-front-and-back -target=66;
+王神:有点震惊，拍了拍你的肩，但还是接受了这个现实。;
+changeScene:8.txt;

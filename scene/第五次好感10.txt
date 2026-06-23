@@ -1,0 +1,5 @@
+:（王神好感＋10）;
+setVar:char_王神_fav=char_王神_fav+10; 
+王神:那我可就享用了！;
+:你和王神一起吃了顿饭。;
+changeScene:5（重置版1）.txt;

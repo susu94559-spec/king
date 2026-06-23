@@ -1,0 +1,25 @@
+; ====== 结局A：并肩作战 ======
+changeBg:battle.png -next;
+{name}:不！我不会丢下你的！;
+changeFigure:wangshen_serious.png -next;
+:王神看着你，眼中闪过一丝复杂的情绪。;
+王神:你这个笨蛋......;
+:但她的嘴角微微上扬。;
+王神:那就......一起上吧，同志！;
+:你感觉手上的契约印记剧烈地燃烧起来——;
+:一股前所未有的力量从体内涌出！;
+:那是来自前世的记忆碎片，化作了战斗的本能！;
+setAnimation:shake -target=bg-main -next;
+:你和王神背靠背，面对着铺天盖地的曼波大军——;
+:在新塘中学的小树林中，你们并肩而战。;
+changeFigure:wangshen_smile.png -next;
+王神:看来你的力量......已经开始觉醒了呢。;
+王神:不愧是我的契约者！;
+:战斗在继续......;
+:但你知道，只要有她在身边，你就不会退缩。;
+changeBg:black.png -next;
+changeFigure:none -next;
+intro:—— 未完待续 ——|并肩作战·结局|王神好感度：{wangshen_haogan};
+:感谢你游玩《新塘中学的神》;
+:你与王神的故事还将继续......;
+end;

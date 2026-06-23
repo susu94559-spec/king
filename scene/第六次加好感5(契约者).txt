@@ -1,0 +1,7 @@
+; === 契约者 ===
+setVar:char_王神_fav=char_王神_fav+5; 
+changeBg:学校高一架空层.png -next;
+changeFigure:思语微笑.png -id=3 -transform={"position":{"y":101},"scale":{"x":0.86,"y":0.86},"alpha":1,"blur":0,"bloom":0.096,"bloomBrightness":1,"bloomBlur":0,"bloomThreshold":0,"oldFilm":0,"dotFilm":0,"rgbFilm":0,"godrayFilm":0} -ease=circInOut;
+你:（看了看手上的契约）“契约者吧”;
+王神:“嗯......也对。”;
+changeScene:8.txt;

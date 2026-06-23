@@ -1,0 +1,8 @@
+; === 没什么关系 ===
+changeBg:学校高一架空层.png -next;
+changeFigure:思语微笑.png -id=3 -transform={"position":{"y":101},"scale":{"x":0.86,"y":0.86},"alpha":1,"blur":0,"bloom":0,"bloomBrightness":1,"bloomBlur":0,"bloomThreshold":0,"oldFilm":0,"dotFilm":0,"rgbFilm":0,"godrayFilm":0} -ease=circInOut;
+你:“没什么关系吧。”;
+changeFigure:none -id=3 -transform={"position":{"y":101},"scale":{"x":0.86,"y":0.86},"alpha":1,"blur":0,"bloom":0,"bloomBrightness":1,"bloomBlur":0,"bloomThreshold":0,"oldFilm":0,"dotFilm":0,"rgbFilm":0,"godrayFilm":0} -ease=circInOut -next;
+changeFigure:思语严肃.png -id=77 -transform={"position":{"y":101},"scale":{"x":0.86,"y":0.86},"alpha":1,"blur":0,"bloom":0,"bloomBrightness":1,"bloomBlur":0,"bloomThreshold":0,"oldFilm":0,"dotFilm":0,"rgbFilm":0,"godrayFilm":0} -ease=circInOut;
+王神:（沉默了一会儿）“……也罢”;
+changeScene:8.txt;

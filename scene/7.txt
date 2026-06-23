@@ -1,0 +1,24 @@
+; ====== 第七章：回忆之后 ======
+changeBg:学校高一架空层.png -next;
+changeFigure:思语微笑.png -id=55 -transform={"position":{"y":101},"scale":{"x":0.86,"y":0.86},"alpha":1,"blur":0,"bloom":0,"bloomBrightness":1,"bloomBlur":0,"bloomThreshold":0,"oldFilm":0,"dotFilm":0,"rgbFilm":0,"godrayFilm":0} -ease=circInOut;
+setAnimation:shockwaveIn -target=55;
+:你回过神来，发现王神饶有兴趣地看着你。;
+王神:“是不是想起来了？”;
+王神:“有没有觉得我以前对小时候的你超级无敌好？”;
+你:（摸了摸手上印记）“恢复了一点吧......”;
+你:“你怎么不在我们重逢的时候就告诉我这件事情？”;
+changeFigure:none -id=55 -next;
+changeFigure:思语仰望.png -id=77 -transform={"position":{"y":101},"scale":{"x":0.86,"y":0.86},"alpha":1,"blur":0,"bloom":0,"bloomBrightness":1,"bloomBlur":0,"bloomThreshold":0,"oldFilm":0,"dotFilm":0,"rgbFilm":0,"godrayFilm":0} -ease=circInOut;
+王神:“会被「祂」发现啊。”;
+changeFigure: -id=77 -next;
+changeFigure:思语托腮.png -id=1 -transform={"position":{"y":101},"scale":{"x":0.86,"y":0.86},"alpha":1,"blur":0,"bloom":0,"bloomBrightness":1,"bloomBlur":0,"bloomThreshold":0,"oldFilm":0,"dotFilm":0,"rgbFilm":0,"godrayFilm":0} -ease=circInOut;
+王神:“但现在显然祂已经发现了我们了。”;
+changeFigure: -id=1 -next;
+changeFigure:思语微笑.png -id=2 -transform={"position":{"y":101},"scale":{"x":0.86,"y":0.86},"alpha":1,"blur":0,"bloom":0,"bloomBrightness":1,"bloomBlur":0,"bloomThreshold":0,"oldFilm":0,"dotFilm":0,"rgbFilm":0,"godrayFilm":0} -ease=circInOut;
+bgm:none -enter=100;
+bgm:橙光战斗.mp3 -enter=100 -volume=100;
+王神:“不过我会保护你的！”;
+（拍拍你的头）“既然你现在想起来了，那你觉得我们现在是什么关系？”;
+:[ 请 谨 慎 选 择 ！！！](style=color:red\;);
+; === 关系选择 ===
+choose:恋人:第六次加好感20（恋人）.txt|朋友:第六次加好感10(朋友).txt|契约者:第六次加好感5(契约者).txt|SM:第六次加好感999(sm).txt|没什么关系:第六次加好感0（没关系）.txt;

@@ -1,0 +1,18 @@
+; ====== 新塘中学的神 - 开始 ======
+bgm:请把我记在心内.mp3 -enter=10 -volume=100 -unlockname=npc音乐;
+getUserInput:playerName -title=请输入你的名字 -buttonText=确认;
+setVar:char_王神_fav=0
+intro:{playerName}|你是一名新塘中学的学生|一天，你在起床后和往常一样前往学校亭子里放松 -fontSize=medium -backgroundColor=rgba(0, 0, 0, 1) -fontColor=rgba(255, 255, 255, 1) -animation=fadeIn -delayTime=1500;
+changeBg:学校小亭子.png;
+:你在漫无目的地走着;
+bgm:none -enter=20;
+bgm:橙光轻松3.mp3 -enter=30 -volume=100 -unlockname=紧张的王;
+:你向前方看去|眼前闪过一道黑影;
+changeFigure:shadow.png -right -id=1 -transform={"position":{"x":0,"y":90},"scale":{"x":0.806,"y":0.806},"alpha":0.811} -ease=linear;
+setAnimation:shockwaveIn -target=1 -writeDefault -next;
+changeFigure: -right -id=1 -transform={"position":{"x":0,"y":90},"scale":{"x":0.806,"y":0.806},"alpha":0.811} -next;
+changeFigure:思语黑影.png -left -id=2 -transform={"position":{"y":90},"scale":{"x":0.86,"y":0.86},"alpha":0.843} -ease=bounceInOut;
+setAnimation:shockwaveIn -target=2 -writeDefault -next;
+changeFigure: -left -id=2 -ease=bounceIn;
+:此时;
+choose:你觉得那个身影看起来武功高强:第一次好感5.txt|身为学校的正义之子,你决定向前探查:1.txt|好奇，向前走去:1.txt;

@@ -1,0 +1,12 @@
+; === 恋人 ===
+setVar:char_王神_fav=char_王神_fav+20; 
+changeBg:学校高一架空层.png -next;
+changeFigure:思语微笑.png -id=3 -transform={"position":{"y":101},"scale":{"x":0.86,"y":0.86},"alpha":1,"blur":0,"bloom":0,"bloomBrightness":1,"bloomBlur":0,"bloomThreshold":0,"oldFilm":0,"dotFilm":0,"rgbFilm":0,"godrayFilm":0} -ease=circInOut;
+你:“恋人......吧？”;
+:王神的全身一下子红了。;
+changeFigure: -id=3 -next;
+changeFigure:思语震惊.png -id=77 -transform={"position":{"y":101},"scale":{"x":0.86,"y":0.86},"alpha":1,"blur":0,"colorRed":255,"colorGreen":224,"colorBlue":224,"bloom":0.138,"bloomBrightness":1,"bloomBlur":0,"bloomThreshold":0,"oldFilm":0,"dotFilm":0,"rgbFilm":0,"godrayFilm":0} -ease=circInOut;
+setAnimation:shockwaveOut -target=77;
+王神:“同......同志！我们可是革命友谊！”;
+:（虽然嘴上这么说，但真正的想法只有她知道）;
+changeScene:8.txt;

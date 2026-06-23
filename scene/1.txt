@@ -1,0 +1,15 @@
+:你跟着那个身影走了半个校园;
+changeBg:学校大石头.png;
+changeBg:神秘曹叔.png;
+changeBg:新塘小广场.png -ignoreDefault;
+changeBg:亭子隔壁.png -transform={"godrayFilm":1};
+:你感觉自己有点走不动了;
+changeFigure:shadow.png -id=3 -transform={"position":{"x":0,"y":112},"scale":{"x":0.806,"y":0.806},"alpha":0.811} -duration=20 -ease=bounceOut;
+:那个身影在你前边不远处停下;
+:向着你的方向走了几步;
+changeFigure:shadow.png -id=3 -transform={"position":{"x":-183,"y":116},"scale":{"x":1,"y":1}};
+setTransform: -target=3 -duration=20 -ease=easeIn;
+changeFigure:none -id=3 -ease=bounceIn;
+changeFigure:shadow.png -transform={"position":{"y":37},"scale":{"x":0.955,"y":0.953},"alpha":0.848} -duration=10 -ease=bounceOut;
+:你决定;
+choose:直面她:第二次好感5.txt|有点害怕，不敢看她:2.txt;

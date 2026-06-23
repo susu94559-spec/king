@@ -1,0 +1,19 @@
+bgm:none -enter=100;
+bgm:橙光轻松2.mp3 -enter=50 -volume=100 -unlockname=？;
+changeFigure:shadow.png -duration=10 -ease=bounceOut -transform={"position":{"x":-4,"y":93},"scale":{"x":0.9,"y":0.9},"alpha":0.933}
+changeBg:亭子隔壁.png;
+？？？:“很好，{playerName}同志，你成功通过了我的考验！”;
+setAnimation:shockwaveIn -target=3 -writeDefault -next;
+:你看着黑色身影的面容逐渐清晰 -notend;
+changeFigure:;
+setTransition: -enter=oldFilm -target=4;
+changeFigure:思语微笑.png -id=4 -transform={"position":{"y":101},"scale":{"x":0.86,"y":0.86},"alpha":1,"bloom":0.435,"bloomBrightness":0.868,"bloomBlur":16,"bloomThreshold":0.407,"oldFilm":0,"dotFilm":0,"rgbFilm":0,"godrayFilm":0} -ease=circInOut;
+:你看着黑影的面容逐渐清晰——;
+:那是一个看起来和你差不多年纪的少女，但周身散发着一种不寻常的气息。;
+你:“你是谁？我怎么没在新塘中学见过你。”;
+？？？:“我是在新塘中学诞生的神。”|“我在这吸收新塘中学学子的愿力而成长。”;
+“我也因新塘中学的知识之气而幻化出了人形。”;
+？？？:“所以你可以称呼我为——”;
+“「双休·宇宙无敌霹雳螺旋爆炸升天•王•神」”;
+; === 选择：反应 ===
+choose:“哦”:3.txt|“好厉害！！！”:第三次加好感5.txt|“能简单点吗？”:3.txt;

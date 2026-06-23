@@ -1,0 +1,3 @@
+:（？？？好感＋5）;
+setVar:char_王神_fav=char_王神_fav+5; 
+changeScene:1.txt;

@@ -1,0 +1,24 @@
+; ====== 结局C：跑走 ======
+changeBg:forest_night.png -next;
+:你转身跑走了。;
+:王神的声音在你身后回荡......;
+changeFigure:wangshen_serious.png -next;
+王神:快跑！不要回头！;
+:你拼命地跑着，信物在你胸前散发着微弱的光芒。;
+:身后传来激烈的战斗声——;
+:爆炸声、咆哮声......;
+:你不敢回头。;
+changeBg:campus.png -next;
+changeFigure:none -next;
+:你跑出了小树林，来到了校园。;
+:战斗的声音渐渐远去......;
+:你握紧了手中的信物。;
+:不知道为什么，眼眶有些湿润。;
+{name}:王神......;
+:你看着信物上微弱的光芒，心中暗暗发誓——;
+{name}:我一定会变强，回来找你的。;
+changeBg:black.png -next;
+intro:—— 未完待续 ——|离别·结局|王神好感度：{wangshen_haogan};
+:感谢你游玩《新塘中学的神》;
+:你与王神的故事还将继续......;
+end;
