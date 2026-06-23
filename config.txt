@@ -1,0 +1,8 @@
+Game_name:语你在新塘中心无法达成的契约;
+Game_key:xintang2026;
+Title_img:29.png;
+Title_bgm:不舍.mp3;
+Description:;
+Package_name:我要打原神;
+Game_Logo:;
+Enable_Appreciation:true;
